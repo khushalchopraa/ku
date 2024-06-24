@@ -1,0 +1,257 @@
+<html>
+<head>
+<title>display</title>
+<style>
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+color: white;
+background-color: black;
+}
+
+
+nav{
+height: 40px; 
+background-color: yellow;
+color: black;
+padding: 20px;
+font-size: 20px;
+
+}
+
+.star{
+float: right;
+display: flex;
+justify-content: center;
+gap: 20px;
+}
+
+h1{
+ margin-top: 50px;
+ font-weight: 30px;
+ }
+ .sclass{
+ margin: 30px;
+ width: auto;
+ display: flex;
+ font-size: 20px;
+}
+.image{
+display: flex;
+justify-content: flex-end;
+flex: wrap;
+object-fit: cover;
+flex-basis: 1000px;
+border-radius: 50%;
+overflow: hidden; 
+ }
+ 
+ [type= "button"]{
+justify-content: flex-end; 
+ padding: 15px; 
+ color: black; 
+ font-size: 30px;
+ font-width: bold;
+ border-radius: 50px;
+ background-color: yellow; 
+ width: 400px;
+ }
+ 
+ h2{
+ margin: 30px;
+ font-size: 40px; 
+ font-weight: bold;
+ color: yellow;
+ }
+ 
+ .contactus{
+ border: 1px solid black;
+ padding: 30px;
+ font-size: 20px; 
+ color: green; 
+ }
+ 
+ [type= "text"]{
+ width: 100%; 
+ height: 40px;
+ margin: 10px;
+ border-radius: 20%;
+ overflow: hidden;
+ border: 5px yellow black;
+ font-size: 30px;
+ }
+ 
+ 
+ [type="email"]{
+ width: 100%; 
+ height: 40px;
+ margin: 10px;
+ border-radius: 20%;
+ overflow: hidden;
+ border: 5px yellow black;
+ font-size: 30px;
+ }
+ 
+ .flex{
+ display: flex;
+ justify-content: space-between;
+ 
+ }
+ 
+[type="number"]{
+width: 45%;
+ height: 40px;
+ margin: 10px;
+ border-radius: 20%;
+ overflow: hidden;
+ border: 5px yellow black;
+ font-size: 30px;
+ }
+ 
+ [type="textarea"]{
+ width: 45%;
+ margin: 10px;
+ border-radius: 20%;
+ overflow: hidden;
+ border: 5px yellow black;
+ font-size: 30px;
+ }
+ 
+ [type= "submit"]{
+ margin: 50px;
+ padding: 15px; 
+ color: black; 
+ font-size: 30px;
+ font-width: bold;
+ border-radius: 50px;
+ background-color: yellow; 
+ width: 400px;
+ }
+ .centeralign{
+ text-align: center;
+ }
+ 
+ table{
+
+ width: 95%;
+ height: 20%;
+line-height: 2.5;
+ }
+  
+ .maharaja{
+  background-color: yellow; 
+  }
+ 
+</style>
+</head>
+
+<body>
+
+<nav>
+startup
+
+<span class="star"><a href="">Home</a> <a href="">About us</a> <a href="">Contact us</a> <a href="">Login</a> </span> 
+</nav>
+
+
+
+<Intro section>
+
+<h1 >Starup Landing Page</h1>
+<section class= "sclass">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+
+
+
+
+<article class="image">
+<img src= "https://imageio.forbes.com/specials-images/imageserve/5babb7f1a7ea4342a948b79a/0x0.jpg?format=jpg&crop=2327,2329,x748,y1753,safe&height=416&width=416&fit=bounds"/>
+</article>
+
+
+</section>
+<header class= "button">
+<input type= "button" name="Login" value="Login"/>
+</header>
+<Intro section>
+
+
+
+<Contact us>
+
+<h2> Contact Us</h2>
+<div class = "contactus">
+<div><input type= "text" name="Name" placeholder="Name" /></div>
+<div><input type="email" name="Email" placeholder="Email"/></div>
+<div class= "flex"><input type="number" name="Mobile no" placeholder="Mobile no"/>
+<input type="textarea" name="city" placeholder="city"/></div>
+<div class= "centeralign"><input type= "submit" value="Submit Form"/></div>
+
+</Contact us>
+ </div>
+ 
+ 
+ <div = "table">
+ 
+ <tableSection>
+ 
+ <table border="1" rows = "">
+ <tr>
+ <td class="table.row">SNO</td>
+ <td class="table.cell">Startup Name</td>
+ <td class="table.cell">Startup Description</td>
+ </tr>
+ 
+ <tr>
+ <td class="table.row">2.</td>
+ <td class="table.cell">Wow India</td>
+ <td class="table.cell"> A startup with WOW ideas</td>
+ </tr>
+ 
+ <tr>
+ <td class="table.row">2.</td>
+ <td class="table.cell">Lorem ipsum</td>
+ <td class="table.cell">Lorem ipsum text</td>
+ </tr>
+ 
+ <tr>
+ <td class="table.row">2.</td>
+ <td class="table.cell">Lorem ipsum</td>
+ <td class="table.cell">Lorem ipsum text</td>
+ </tr>
+ 
+<tr>
+ <td class="table.row">2.</td>
+ <td class="table.cell">Lorem ipsum</td>
+ <td class="table.cell">Lorem ipsum text</td>
+ </tr>
+ 
+ <tr>
+ <td class="table.row">2.</td>
+ <td class="table.cell">Lorem ipsum</td>
+ <td class="table.cell">Lorem ipsum text</td>
+ </tr>
+ 
+<tr>
+ <td class="table.row">2.</td>
+ <td class="table.cell">Lorem ipsum</td>
+ <td class="table.cell">Lorem ipsum text</td>
+ </tr>
+ 
+ <tr class= "">
+ <td class="table.row"> 00.</td>
+ <td class="table.cell">Final Footer</td>
+ <td class="table.cell">Lorem Ipsum Text</td>
+ </tr>
+ 
+ 
+ 
+
+</table> 
+</tablesection>
+</div>
+
+
+ </body>
+ </html>
